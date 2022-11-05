@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Sydney's Cheesey Cheese</title>
+</head>
+
+<body>
+
+	<header>
+		<h1>Sydney's Cheesey Cheese</h1>
+		<h2>Add Cheese Inventory</h2>
+	</header>
+
+	<main>
+		<nav>
+			<a href="/">Home</a> <a href="#">View Our Cheeses</a> <a href="#">About
+				Us</a>
+		</nav>
+
+
+		<section>
+			<div>
+				<p>"Cheese has been added to inventory."</p>
+
+				<!--    <table>
+		    <tbody>
+		        <tr><th>Cheese Name</th></tr>
+		        <tr><th>Amount:</th><td>qty x weight Unit Description</td></tr>
+		        <tr><th>Total value:</th><td>$xxx.xx</td></tr>
+		    </tbody>
+		</table>
+		          -->
+			</div>
+
+		</section>
+
+
+
+
+
+		<form action="/" method="post">
+
+			<h1>Add Cheese to Inventory</h1>
+			<p>
+				<label for="cheese name">cheeseName: <input type="text"
+					required="tbd" id="cheeseName" name="cheeseName">
+				</label>
+			</p>
+			<br>
+
+			<fieldset>
+				<legend>Amount Received:</legend>
+				<label for="Quantity"><input type="text" id="qty" name="qty">
+					Quantity</label><br> <label for="Weight"><input type="text"
+					id="wt" name="wt"> weight</label> <label for="Units"><select
+					name="units" id="unit">
+						<option value="Lb. Wheel">Lb. Wheel</option>
+						<option value="Lb. HalfWheel">Lb. HalfWheel</option>
+						<option value="Lb. QuarterWheel">Lb. QuarterWheel</option>
+						<option value="Lb. EightWheel">Lb. EightWheel</option>
+						<option value="Lb. Square">Lb. Square</option>
+						<option value="Lb. Tomme">Lb. Tomme</option>
+
+				</select> Units</label><br>
+
+				<p>
+					<label for="price">Price: <input type="text"
+						required="25.0" id="prc" name="prc">
+					</label>
+				</p>
+				<br>
+
+				<p>
+					<label for="Spec Sheet URL">Spec Sheet URL: <input
+						type="text" id="ssu" name="ssu">
+					</label>
+				</p>
+
+				<p>
+					<input type="submit">
+				</p>
+				<p>
+					<input type="Reset">
+				</p>
+		</form>
+
+	</main>
+
+	<footer>
+		<address>&copy; 2022 Akshita Bajaj</address>
+	</footer>
+
+
+</body>
+
+</html>
